@@ -6,6 +6,7 @@ categories:
   - "tool"
   - "tips"
 heroImage: "@assets/images/Obsidian.jpg"
+import BaseLayout from "@/layouts/BaseLayout.astro";
 ---
 
 2017年から課金して使い続けたEvernoteから、Obsidianに乗り換えることにした。

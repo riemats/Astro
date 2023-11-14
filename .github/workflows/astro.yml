@@ -31,4 +31,4 @@
            username: ${{ secrets.FTP_ACCOUNT }}
            password: ${{ secrets.FTP_PASSWORD }}
            local-dir: ./dist/
-           server-dir: /home/${{ secrets.FTP_ACCOUNT }}/www/astro-test
+           server-dir: /home/${{ secrets.FTP_ACCOUNT }}/www/astro-test/
