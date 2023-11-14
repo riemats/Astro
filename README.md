@@ -100,3 +100,4 @@ If you use netlify it's actually easier, you will need to change in the file `as
 ### 👀 Want to learn more?
 
 Check out [Astro documentation](https://docs.astro.build) or jump into Astro [Discord server](https://astro.build/chat).
+# Astro
