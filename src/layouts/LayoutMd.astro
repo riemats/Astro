@@ -1,0 +1,17 @@
+---
+import Layout from "./Layout.astro";
+export interface Props {
+    content: {
+        title: string;
+        description: string;
+        heroImage?: string;
+    };
+}
+const {
+    content: { title, description, heroImage },
+} = Astro.props;
+---
+
+<Layout title={title} description={description} heroImage={heroImage}>
+    <slot />
+</Layout>
