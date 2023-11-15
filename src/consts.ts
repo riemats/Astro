@@ -3,7 +3,7 @@
 
 // Website metadata
 export const SITE_URL: string = "https://astrostarter.zank.studio";
-export const SITE_TITLE: string = "Astro Blog";
+export const SITE_TITLE: string = "ROG";
 export const SITE_DESCRIPTION: string = "Welcome to my website!";
 
 // Repo info
@@ -11,7 +11,7 @@ export const REPO: string = "zankhq/astro-starter"; // TODO: Update dynamically
 export const DEFAULT_BRANCH: string = "main"; // TODO: Update dynamically
 
 // SEO metadata
-export const TWITTER_CREATOR: string = "@xxx";
+export const TWITTER_CREATOR: string = "@r_emats";
 
 // Navigation
 type Page = {
@@ -22,12 +22,12 @@ type Page = {
 
 export const PAGES: Page[] = [
 	{
-		title: "Home",
-		href: "/",
+		title: "Writing",
+		href: "/archive",
 	},
 	{
-		title: "Blog",
-		href: "/blog",
+		title: "Books",
+		href: "/books",
 	},
 	{
 		title: "About",
