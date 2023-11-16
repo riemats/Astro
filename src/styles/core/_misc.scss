@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  line-height: 1.6;
+  line-height: 1.6 !important;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -45,6 +45,7 @@ select {
 
 p {
   overflow-wrap: break-word;
+  line-height: 1.6 !important;
 }
 
 h1,
@@ -54,7 +55,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 #root,

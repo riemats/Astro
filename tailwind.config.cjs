@@ -11,13 +11,13 @@ module.exports = {
                 body: [
                     "1rem",
                     {
-                        lineHeight: "1.5rem"
+                        lineHeight: "1.6rem"
                     }
                 ],
                 h1: [
                     "3.5rem",
                     {
-                        lineHeight: "3.75rem"
+                        lineHeight: "3.75rem",
                     }
                 ],
                 h2: [
