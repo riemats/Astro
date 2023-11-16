@@ -1,103 +1,80 @@
-<h1 align="center"> Astro Starter Kit</h1>
+<div align="center">
+  <img alt="Astro Lane" src="/public/android-chrome-192x192.png" width="70" />
+</div>
 
-<br />
+<h1 align="center">
+  Astro Lane - An Astro Theme 🚀
+</h1>
 
+Astro Lane is a customizable blog theme for Astro, designed to provide a personalized touch to your site with ease. The theme offers minimal styling, making it easy for you to tailor it to your needs.
 
-<p align="center">
-<a href="https://stackblitz.com/github/zankhq/astro-starter">
-	<img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" />
-</a>
-&nbsp;&nbsp;
-<a href="https://codesandbox.io/p/sandbox/github/zankhq/astro-starter">
-	<img src="https://assets.codesandbox.io/github/button-edit-lime.svg" />
-</a>
-&nbsp;&nbsp;
-<a href="https://codespaces.new/zankhq/astro-starter?devcontainer_path=.devcontainer/blog/devcontainer.json">
-	<img src="https://github.com/codespaces/badge.svg" />
-</a>
-</p>
+<hr>
 
-<br />
+![Astro Lane Mockup](/public/images/astro-lane.png)
 
+## Key Features:
 
-### Features:
+-   Minimal styling (make it your own!)
+-   Accessible, semantic HTML markup
+-   Blazingly Fast
+-   100/100 Lighthouse performance
+-   Responsive & SEO-friendly with canonical URLs and OpenGraph data
+-   [Astro Image Integration](https://docs.astro.build/en/guides/integrations-guide/image/) for optimized images
+-   Sitemap support
+-   [Automatic RSS feed support](https://docs.astro.build/en/guides/rss)
+-   [Satori](https://github.com/vercel/satori) for creating open graph png images.
+-   Markdown & MDX support
+-   Draft Posts and Paginations
+-   Prism code syntax styling using Atom Dark theme.
 
--   ✅ Tailwind CSS
--   ✅ Alpine js
--   ✅ Typescript
--   ✅ Localization (with astro-i18n-aut)
--   ✅ Dark/light mode
--   ✅ Blog
--   ✅ Discussions (thanks to giscus)
--   ✅ CMS for editing blog post (thanks to decap CMS)
--   ✅ Sitemap (localized)
--   ✅ RSS (localized)
--   ❌ PWA (Follow tutorial below to add it)
+## Lighthouse Score
 
-### 🧞 Commands
+Astro Lane scores 100/100 in the Lighthouse performance audit.
+
+![Astro Lane Lighthouse Score](/astro-lane-lighthouse-score.png)
+
+## Demo
+
+Check out the [Demo](https://astro-lane.chrstnl.com/), hosted on Vercel.
+
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`          | Installs dependencies                            |
+| `npm run dev`          | Starts local dev server at `localhost:3000`      |
+| `npm run build`        | Build your production site to `./dist/`          |
+| `npm run preview`      | Preview your build locally, before deploying     |
+| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro --help` | Get help using the Astro CLI                     |
 
-If you want to switch to npm make sure to remove pnpm-lock.yaml and node_modules folder and then run `npm install`
+## Documentation
 
-### How to add PWA
+-   [Configuration](https://astro-lane.chrstnl.com/blog/how-to-configure-astro-lane)
+-   Configuring [SITE Defaults](https://astro-lane.chrstnl.com/blog/how-to-configure-astro-lane#configuring-site-defaults)
+-   Configuring [Project Data](https://astro-lane.chrstnl.com/blog/how-to-configure-astro-lane#configuring-project-data)
+-   [Adding A New Post](https://astro-lane.chrstnl.com/blog/adding-new-post)
+-   [Markdown Guide](https://astro-lane.chrstnl.com/blog/markdown-style-guide)
+-   [Tailwind Typography Guide](https://astro-lane.chrstnl.com/blog/tailwind-typography)
 
-TBD
+## Want to learn more?
 
-### 🚀 Project Structure
+Check out [Astro's documentation](https://docs.astro.build).
 
-Inside of your Astro project, you'll see the following folders and files:
+## Deploy
 
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   ├── locales/
-│   ├── middleware/
-│   ├── pages/
-│   ├── styles/
-│   ├── utils/
-│   └── consts.ts/
-├── astro.config.mjs
-├── README.md
-├── package.json
-├── .prettierrc
-├── tailwind.config.cjs
-└── tsconfig.json
-```
+You can deploy your own Astro site on various platforms by following the [Astro docs](https://docs.astro.build/en/guides/deploy/) guide. By default, the site will be built (see Commands section above) to a `/dist` directory.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Feedback and Suggestions
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+If you have any suggestions/feedback, Feel free to open an issue if you find bugs or want to request new features.
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+## Credit/Acknowledgements
 
-Any static assets, like images, can be placed in the `public/` directory.
+This theme functionality is loosely based on [Astro Paper](https://github.com/satnaing/astro-paper)
 
-### ✍️ Admin dashboard
+---
 
-You can access the admin dashboard for editing blog post at `/admin` (https://example.com/admin)
-
-For more information follow Decap CMS documentation at https://decapcms.org/docs/
-
-In order to access the admin dashboard to change blog articles content you need to have access to the github repo, a quick way to test it test would be fork the repo and than configure decap cms accordingly to your cloud provider (netlify, cloudflare, vercel, etc...).
-
-If you use cloudflare pages you can follow this guide https://github.com/i40west/netlify-cms-cloudflare-pages.
-
-If you use netlify it's actually easier, you will need to change in the file `astro.config.mjs` NetlifyCMS config `config.backend.name` to git-gateway. (See https://decapcms.org/docs/git-gateway-backend/#git-gateway-with-netlify for more info)
-
-### 👀 Want to learn more?
-
-Check out [Astro documentation](https://docs.astro.build) or jump into Astro [Discord server](https://astro.build/chat).
-# Astro
+Made by [chrstnl](https://www.chrstnl.com/)

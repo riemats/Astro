@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://astrostarter.zank.studio/sitemap-index.xml
+
+Sitemap: https://astro-lane.vercel.app/sitemap-index.xml

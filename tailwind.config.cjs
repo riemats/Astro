@@ -1,52 +1,106 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
-	content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-	theme: {
-		extend: {
-			fontFamily: {
-				/** Change here the font family */
-				sans: ["Inter Variable", "Inter", ...defaultTheme.fontFamily.sans],
-			},
-			colors: {
-				/** Override here your primary colors */
-				primary: {
-					50: "#fef1f7",
-					100: "#fee5f0",
-					200: "#fecce3",
-					300: "#ffa2cb",
-					400: "#fe68a7",
-					500: "#f83c86",
-					600: "#e91f64",
-					700: "#ca0c47",
-					800: "#a70d3b",
-					900: "#8b1034",
-					950: "#55021a",
-				},
-				secondary: {
-					50: "#f4f7f7",
-					100: "#e2ebeb",
-					200: "#c8d9d8",
-					300: "#a1bfbf",
-					400: "#739c9d",
-					500: "#588182",
-					600: "#4c6c6e",
-					700: "#425a5c",
-					800: "#3b4d4f",
-					900: "#354244",
-					950: "#222d2f",
-				},
-			},
-		},
-	},
-	plugins: [require.resolve("prettier-plugin-astro")],
-	overrides: [
-		{
-			files: "*.astro",
-			options: {
-				parser: "astro",
-			},
-		},
-	],
-	darkMode: "class",
+    content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+    theme: {
+        extend: {
+            fontFamily: {
+                body: ["Inter", "Sans Serif"],
+                title: ["Inter", "Sans Serif"]
+            },
+            fontSize: {
+                body: [
+                    "1rem",
+                    {
+                        lineHeight: "1.5rem"
+                    }
+                ],
+                h1: [
+                    "3.5rem",
+                    {
+                        lineHeight: "3.75rem"
+                    }
+                ],
+                h2: [
+                    "2.25rem",
+                    {
+                        lineHeight: "2.625rem"
+                    }
+                ],
+                h3: [
+                    "1.875rem",
+                    {
+                        lineHeight: "2.25rem"
+                    }
+                ],
+                h4: [
+                    "1.5rem",
+                    {
+                        lineHeight: "2rem"
+                    }
+                ],
+                h5: [
+                    "1.25rem",
+                    {
+                        lineHeight: "1.75rem"
+                    }
+                ],
+                h6: [
+                    "1.125rem",
+                    {
+                        lineHeight: "1.5rem"
+                    }
+                ],
+                mini: [
+                    "0.75rem",
+                    {
+                        lineHeight: "1.5rem"
+                    }
+                ]
+            },
+            colors: {
+                black: {
+                    DEFAULT: "#000000",
+                    50: "#E6E6E6",
+                    100: "#CCCCCC",
+                    200: "#999999",
+                    300: "#666666",
+                    400: "#333333",
+                    500: "#000000",
+                    600: "#000000",
+                    700: "#000000",
+                    800: "#000000",
+                    900: "#000000"
+                },
+                white: {
+                    DEFAULT: "#FFFFFF",
+                    50: "#FFFFFF",
+                    100: "#FCFCFC",
+                    200: "#FCFCFC",
+                    300: "#FAFAFA",
+                    400: "#FAFAFA",
+                    500: "#F7F7F7",
+                    600: "#C7C7C7",
+                    700: "#949494",
+                    800: "#636363",
+                    900: "#303030"
+                },
+                primary: {
+                    50: "#f7f7f7",
+                    100: "#e3e3e3",
+                    200: "#c8c8c8",
+                    300: "#a4a4a4",
+                    400: "#818181",
+                    500: "#737373",
+                    600: "#515151",
+                    700: "#434343",
+                    800: "#383838",
+                    900: "#313131",
+                    950: "#1a1a1a"
+                },
+                badge: "#F1F5F9",
+                badgeText: "#475569"
+            }
+        }
+    },
+    plugins: [require("@tailwindcss/typography")]
 };
