@@ -19,11 +19,11 @@
 html,
 body {
   height: 100%;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,7 +43,10 @@ select {
   font: inherit;
 }
 
-p,
+p {
+  overflow-wrap: break-word;
+}
+
 h1,
 h2,
 h3,
@@ -51,6 +54,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-weight: 700;
 }
 
 #root,
