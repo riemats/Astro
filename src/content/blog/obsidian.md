@@ -101,7 +101,7 @@ Evernote（エバーノート）は、ノートを取るように情報を蓄積
 
 タグはこんな感じで表示される
 
-![](@assets/images/ob_02_outline.png)
+![](/images/ob_02_outline.png)
 
 右側のものがアウトライン
 
