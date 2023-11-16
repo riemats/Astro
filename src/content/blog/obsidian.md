@@ -5,7 +5,7 @@ pubDate: 2023-11-02
 categories: 
   - "tool"
   - "tips"
-heroImage: "../public/images/Obsidian.jpg"
+heroImage: "/public/images/Obsidian.jpg"
 ---
 
 2017年から課金して使い続けたEvernoteから、Obsidianに乗り換えることにした。
@@ -33,7 +33,7 @@ heroImage: "../public/images/Obsidian.jpg"
 
 昔からのプランを据え置き価格で利用できていたものの、年々高額になっているのをみていた。自分にとって一番都合のいいプランはもうないし。サブスクを削減していきたい気持ちがある。
 
-![Evernoteの活用（仕事編）](@assets/images/evernote.png)
+![Evernoteの活用（仕事編）](/public/images/evernote.png)
 
 [Evernoteの活用（仕事編）](https://riemats.com/evernote-business/)
 

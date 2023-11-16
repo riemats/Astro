@@ -41,7 +41,7 @@ const sortedPosts = posts
                 <div
                     class="content text-1xl md:text-1xl font-medium leading-6 lg:leading-8 tracking-tight lg:tracking-tighter text-neutral-500"
                 >
-                    日記と本棚のサイト
+                    日記と本棚のサイト（WPから移行中）
                 </div>
             </div>
         </SectionContainer>
@@ -120,5 +120,23 @@ const sortedPosts = posts
             </ul>
         </SectionContainer>
         <!-- Tags Container -->
+        <SectionContainer class="tags--container">
+            <div class="flex flex-row my-4 items-center text-neutral-500">
+                <h2
+                    class="font-medium text-h4 text-neutral-500 leading-8 tracking-tighter mb-0"
+                >
+                    Books
+                </h2>
+
+                <a href="/" class="font-medium flex no-underline ml-auto">
+                    View all books
+                    <Icon name="ph:arrow-right-light" class="w-6 h-6 ml-4" />
+                </a>
+            </div>
+
+            <div id="literal-widget" handle="riemats" status="IS_READING" layout="row"></div>
+<script src="https://literal.club/js/widget.js"></script>
+        </SectionContainer>
+        <!-- Books Container -->
     </div>
 </Layout>
