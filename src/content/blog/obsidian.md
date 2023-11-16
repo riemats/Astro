@@ -5,7 +5,7 @@ pubDate: 2023-11-02
 categories: 
   - "tool"
   - "tips"
-heroImage: "../public/images/Obsidian.jpg"
+heroImage: "/images/Obsidian.jpg"
 ---
 
 2017年から課金して使い続けたEvernoteから、Obsidianに乗り換えることにした。
@@ -33,7 +33,7 @@ heroImage: "../public/images/Obsidian.jpg"
 
 昔からのプランを据え置き価格で利用できていたものの、年々高額になっているのをみていた。自分にとって一番都合のいいプランはもうないし。サブスクを削減していきたい気持ちがある。
 
-![Evernoteの活用（仕事編）](../public/images/evernote.png)
+![Evernoteの活用（仕事編）](/images/evernote.png)
 
 [Evernoteの活用（仕事編）](https://riemats.com/evernote-business/)
 
@@ -97,7 +97,7 @@ Evernote（エバーノート）は、ノートを取るように情報を蓄積
 
 - **検索**
 
-![](@assets/images/ob_01_tag.png)
+![](/images/ob_01_tag.png)
 
 タグはこんな感じで表示される
 
