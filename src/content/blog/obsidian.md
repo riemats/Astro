@@ -2,10 +2,12 @@
 title: "EvernoteからObsidianに移行する"
 description: Lorem ipsum dolor sit amet
 pubDate: 2023-11-02
-categories: 
-  - "tool"
-  - "tips"
 heroImage: "../../../images/Obsidian.jpg"
+featured: true
+draft: false
+tags: 
+  - tool
+  - tips
 ---
 
 2017年から課金して使い続けたEvernoteから、Obsidianに乗り換えることにした。

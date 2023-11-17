@@ -1,0 +1,44 @@
+---
+import FormattedDate from "@/components/FormattedDate.astro";
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import { Icon } from "astro-icon";
+import { SITE } from "@config";
+import { CollectionEntry } from "astro:content";
+
+export interface Props {
+    posts: CollectionEntry<"blog">[];
+    title: string;
+    tag: string;
+}
+
+const { posts, title, tag } = Astro.props;
+---
+
+<Layout
+    title={`${title} - ${SITE.title}`}
+    description={`A list of posts from ${SITE.author} in ${SITE.title}`}
+>
+    <div
+        class="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto"
+    >
+        <SectionContainer class="blogs--container mt-32">
+            <a
+                href="/"
+                class="font-medium flex no-underline text-neutral-500 mb-8"
+            >
+                <Icon name="ph:arrow-left-light" class="w-6 h-6 mr-4" />
+                Back to home
+            </a>
+            <h2
+                class="font-medium text-h4 text-neutral-500 my-4 leading-8"
+            >
+                Privacy Policy
+            </h2>
+            <h3
+                class="my-10 leading-8">
+                見出し
+            </h3>
+        </SectionContainer>
+    </div>
+</Layout>
