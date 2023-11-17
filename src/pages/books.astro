@@ -35,9 +35,276 @@ const { posts, title, tag } = Astro.props;
             >
                 Books
             </h2>
-
+            <h3
+                class="my-10 leading-8">
+                今読んでいる本
+            </h3>
             <div id="literal-widget" handle="riemats" status="IS_READING" layout="list"></div>
-<script src="https://literal.club/js/widget.js"></script>
+            <script src="https://literal.club/js/widget.js"></script>
+            <hr class="my-8">
+            <h3
+                class="my-10 leading-8">
+                蔵書リスト
+            </h3>
+            <span class="text-neutral-500">
+                <p>2021〜 IBSNコードがあるものはLiteralClubへ</p>
+                <p>最終更新 2023.04.04</p>
+            </span>
+            <table class="my-8 border-collapse border border-slate-400 ...">
+                <thead>
+                 <tr>
+                    <th class="border border-slate-300 ...">書名</th>
+                    <th class="border border-slate-300 ...">著者</th>
+                    <th class="border border-slate-300 ...">発行年</th>
+                 </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="border border-slate-300 ...">「最長片道切符の旅」取材ノート</td>
+                    <td class="border border-slate-300 ...">宮脇 俊三</td>
+                    <td class="border border-slate-300 ...">2008</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">最後の冒険家</td>
+                    <td class="border border-slate-300 ...">石川 直樹</td>
+                    <td class="border border-slate-300 ...">2011</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">丹沢今昔―山と沢に魅せられて</td>
+                    <td class="border border-slate-300 ...">奥野 幸道</td>
+                    <td class="border border-slate-300 ...">2004</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">風雪に向かう自然と人々</td>
+                    <td class="border border-slate-300 ...">稚内文庫編集委員会編</td>
+                    <td class="border border-slate-300 ...">1984</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">温故知新のコンタックスG1</td>
+                    <td class="border border-slate-300 ...">田中 長徳</td>
+                    <td class="border border-slate-300 ...">1995</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">日本の温泉地 その発達・現状とあり方</td>
+                    <td class="border border-slate-300 ...">山村 順次</td>
+                    <td class="border border-slate-300 ...">1987</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">食客旅行</td>
+                    <td class="border border-slate-300 ...">玉村 豊男</td>
+                    <td class="border border-slate-300 ...">1996</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">一冊でわかる北欧史 (世界と日本がわかる 国ぐにの歴史)</td>
+                    <td class="border border-slate-300 ...">村井 誠人, 大溪 太郎 (監修)</td>
+                    <td class="border border-slate-300 ...">2022</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">北限への招待</td>
+                    <td class="border border-slate-300 ...">稚内文庫編集委員会編</td>
+                    <td class="border border-slate-300 ...">1981</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">北欧の小さな大国「スウェーデン」の魅力150</td>
+                    <td class="border border-slate-300 ...">西田 孝広</td>
+                    <td class="border border-slate-300 ...">2018</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">流れがわかる! デンマーク家具のデザイン史: なぜ北欧のデンマークから数々の名作が生まれたのか</td>
+                    <td class="border border-slate-300 ...">多田羅 景太</td>
+                    <td class="border border-slate-300 ...">2019</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">息子と狩猟に</td>
+                    <td class="border border-slate-300 ...">服部 文祥</td>
+                    <td class="border border-slate-300 ...">2017</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">苦手から始める作文教室　──文章が書けたらいいことはある？</td>
+                    <td class="border border-slate-300 ...">津村 記久子</td>
+                    <td class="border border-slate-300 ...">2022</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">日本の分水嶺</td>
+                    <td class="border border-slate-300 ...">堀 公俊</td>
+                    <td class="border border-slate-300 ...">2011</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">知っておきたい「食」の日本史</td>
+                    <td class="border border-slate-300 ...">宮崎 正勝</td>
+                    <td class="border border-slate-300 ...">2009</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">丹沢記</td>
+                    <td class="border border-slate-300 ...">吉田 喜久治</td>
+                    <td class="border border-slate-300 ...">1983</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">海馬</td>
+                    <td class="border border-slate-300 ...">吉村 昭</td>
+                    <td class="border border-slate-300 ...">1992</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">地図帳の深読み 100年の変遷</td>
+                    <td class="border border-slate-300 ...">今尾 恵介</td>
+                    <td class="border border-slate-300 ...">2021</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">羆嵐</td>
+                    <td class="border border-slate-300 ...">吉村 昭</td>
+                    <td class="border border-slate-300 ...">1982</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">地名アイヌ語小辞典</td>
+                    <td class="border border-slate-300 ...">知里 真志保</td>
+                    <td class="border border-slate-300 ...">1956</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">チェーホフ全集〈12〉シベリアの旅 サハリン島</td>
+                    <td class="border border-slate-300 ...">アントン・パーヴロヴィチ チェーホフ</td>
+                    <td class="border border-slate-300 ...">2009</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">五能線みちくさ紀行</td>
+                    <td class="border border-slate-300 ...">青木 健作</td>
+                    <td class="border border-slate-300 ...">2001</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">写真総合</td>
+                    <td class="border border-slate-300 ...">岡嶋 和幸</td>
+                    <td class="border border-slate-300 ...">2017</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">やりなおし世界文学</td>
+                    <td class="border border-slate-300 ...">津村 記久子</td>
+                    <td class="border border-slate-300 ...">2022</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">ドキュメント 気象遭難</td>
+                    <td class="border border-slate-300 ...">羽根田 治</td
+                        ><td>2013</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">トムラウシ山遭難はなぜ起きたのか</td>
+                    <td class="border border-slate-300 ...">羽根田 治</td>
+                    <td class="border border-slate-300 ...">2012</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">酒肴酒</td>
+                    <td class="border border-slate-300 ...">吉田 健一</td>
+                    <td class="border border-slate-300 ...">2006</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">山の名前で読み解く日本史</td>
+                    <td class="border border-slate-300 ...">谷 有二</td>
+                    <td class="border border-slate-300 ...">2002</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">HIKER ワイド特集奥東北 青森・秋田・岩手</td>
+                    <td class="border border-slate-300 ...">山と溪谷社</td>
+                    <td class="border border-slate-300 ...">1970</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">HIKER ワイド特集北海道</td>
+                    <td class="border border-slate-300 ...">山と溪谷社</td>
+                    <td class="border border-slate-300 ...">1967</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">HIKER 丹沢山塊</td>
+                    <td class="border border-slate-300 ...">山と溪谷社</td>
+                    <td class="border border-slate-300 ...">1964</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">北の食物誌</td>
+                    <td class="border border-slate-300 ...">毎日新聞北海道報道部編</td>
+                    <td class="border border-slate-300 ...">1977</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">日本遊歩記</td>
+                    <td class="border border-slate-300 ...">海野 弘</td>
+                    <td class="border border-slate-300 ...">2000</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">全国燈台と岬</td>
+                    <td class="border border-slate-300 ...">日本交通公社</td>
+                    <td class="border border-slate-300 ...">1971</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">2時間でおさらいできる世界史</td>
+                    <td class="border border-slate-300 ...">祝田 秀全</td>
+                    <td class="border border-slate-300 ...">2012</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">中華料理の文化史</td>
+                    <td class="border border-slate-300 ...">張 競</td>
+                    <td class="border border-slate-300 ...">2013</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">世界の公園−箱根</td>
+                    <td class="border border-slate-300 ...">箱根美術館島写真館編</td>
+                    <td class="border border-slate-300 ...">1998</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">旅行のしかた―内側からタマゴを割る</td>
+                    <td class="border border-slate-300 ...">室 謙二</td>
+                    <td class="border border-slate-300 ...">1975</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">一日の山・中央線私の山旅</td>
+                    <td class="border border-slate-300 ...">横山 厚夫</td>
+                    <td class="border border-slate-300 ...">1986</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">トウガラシの文化史</td>
+                    <td class="border border-slate-300 ...">アマール ナージ</td>
+                    <td class="border border-slate-300 ...">1997</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">明治洋食事始め とんかつの誕生</td>
+                    <td class="border border-slate-300 ...">岡田 哲</td>
+                    <td class="border border-slate-300 ...">2012</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">オンスクリーン タイポグラフィ 事例と論説から考えるウェブの文字表現</td>
+                    <td class="border border-slate-300 ...">ビー・エヌ・エヌ</td>
+                    <td class="border border-slate-300 ...">2021</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">山の独奏曲</td>
+                    <td class="border border-slate-300 ...">串田 孫一</td>
+                    <td class="border border-slate-300 ...">1971</td>
+                <tr>
+                    <td class="border border-slate-300 ...">奥多摩 山、谷、峠、そして人</td>
+                    <td class="border border-slate-300 ...">山田 哲哉</td>
+                    <td class="border border-slate-300 ...">2020</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">日用品としての芸術</td>
+                    <td class="border border-slate-300 ...">横山 貞子</td>
+                    <td class="border border-slate-300 ...">1979</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">くらしのための料理学</td>
+                    <td class="border border-slate-300 ...">土井 善晴</td>
+                    <td class="border border-slate-300 ...">2021</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">ウルトラライトハイキング</td>
+                    <td class="border border-slate-300 ...">土屋 智哉</td>
+                    <td class="border border-slate-300 ...">2011</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">世界の野菜を旅する</td>
+                    <td class="border border-slate-300 ...">玉村 豊男</td>
+                    <td class="border border-slate-300 ...">2010</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-300 ...">料理の四面体</td>
+                    <td class="border border-slate-300 ...">玉村 豊男</td>
+                    <td class="border border-slate-300 ...">1999</td>
+                </tr>
+            </tbody>
+        </table>
         </SectionContainer>
     </div>
 </Layout>
