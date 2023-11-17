@@ -51,7 +51,7 @@ module.exports = {
                     }
                 ],
                 mini: [
-                    "0.75rem",
+                    "0.85rem",
                     {
                         lineHeight: "1.5rem"
                     }

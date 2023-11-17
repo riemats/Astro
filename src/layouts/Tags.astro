@@ -31,7 +31,7 @@ const { posts, title, tag } = Astro.props;
                 Back to home
             </a>
             <h2
-                class="font-medium text-h4 text-neutral-500 my-4 leading-8 tracking-tighter"
+                class="font-medium text-h4 text-neutral-500 my-4 leading-8"
             >
                 Tags:{tag}
                 <span class="ml-2 opacity-70 text-xl"
@@ -45,7 +45,7 @@ const { posts, title, tag } = Astro.props;
                         <li class="flex flex-col gap-1">
                             <a
                                 href={`/blog/${post.slug}`}
-                                class="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[40px] transition-all duration-300"
+                                class="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[20px] transition-all duration-300"
                             >
                                 <span class="grid flex-1 gap-1">
                                     <span class="text-neutral-900 line-clamp-1 md:inline-flex items-center">
