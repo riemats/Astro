@@ -132,13 +132,7 @@ Evernote（エバーノート）は、ノートを取るように情報を蓄積
 他にもいろいろなコミュニティプラグインがある。入れてみて要らないなと思ってすぐ削除したものもある。シンプルにこれだけでいいかなと今のところは思っている。  
 Map Viewは現状ほぼ使っていないけど、EXIF情報を用いて旅行の写真整理などに今後使えそうかなと思っている。(GPS機能付きのカメラで撮影したものにしか適用できないが)
 
-![Map Viewプラグインを使ってObsidianで写真を管理する｜masuipeo](https://assets.st-note.com/production/uploads/images/90593376/rectangle_large_type_2_fc6877b04978d2647c54def60a8f0518.png?fit=bounds&quality=85&width=1280)
-
 [Map Viewプラグインを使ってObsidianで写真を管理する｜masuipeo](https://note.com/masuipeo/n/ne4fcfb5443c5)
-
-スマートフォンでたくさん写真を撮影するけれど、撮影するだけであまり見返すことがない、という人がいるかもしれません。 せっかく撮影した写真なので、うまく管理したいものです。 ここでは、写真の位置情報を使ってObsidianで管理する方法を紹介します。 EXIF情報を使う デジタルカメラで写真を撮影すると、その写真にはEXIF情報が記録されています。 ここには、撮影した日時やカメラの種類などの項目があります。 そして、スマートフォンのカメラで位置情報を記録するように設定しておくと、撮影地の緯度と経度も合わせて記録されています。 この位置情報を使って、地図上に写真をプロットできると、ど
-
-[![](https://www.google.com/s2/favicons?domain=https://note.com/masuipeo/n/ne4fcfb5443c5)note.com](https://note.com/masuipeo/n/ne4fcfb5443c5)
 
 ### 始めて1ヶ月以上経って
 
