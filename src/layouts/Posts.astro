@@ -44,8 +44,8 @@ const breadcrumbList = currentUrlPath.split("/").slice(1);
             {
                 breadcrumbList.map((breadcrumb, index) =>
                     index + 1 === breadcrumbList.length ? (
-                        <h2 class="font-bold text-h4 text-neutral-500 my-4 leading-8 tracking-tighter">
-                            {breadcrumbList[0] === "blog" && "Blogs"}
+                        <h2 class="font-bold text-h4 text-neutral-500 my-4 leading-8">
+                            Archive
                             <span class="ml-2 opacity-70 text-xl">
                                 {breadcrumbList[0] === "blog" &&
                                     `(Page ${breadcrumbList[0 + 1] || 1})`}
@@ -63,7 +63,7 @@ const breadcrumbList = currentUrlPath.split("/").slice(1);
                         <li class="flex flex-col gap-1">
                             <a
                                 href={`/archive/${post.slug}`}
-                                class="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-50 rounded-[20px] transition-all duration-300 relative hover:-top-0.5"
+                                class="block w-full sm:flex-row sm:gap-8 transition-all duration-300 hover:-top-0.5 relative"
                             >
                                 <span class="grid flex-1 gap-1">
                                     <span class="text-neutral-900 line-clamp-1 md:inline-flex items-center">
@@ -77,9 +77,6 @@ const breadcrumbList = currentUrlPath.split("/").slice(1);
                                                 />
                                             </span>
                                         </span>
-                                    </span>
-                                    <span class="text-neutral-500 line-clamp-2 ">
-                                        {post.data.description}
                                     </span>
                                 </span>
                             </a>

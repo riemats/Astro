@@ -24,7 +24,7 @@ const sortedPosts = posts
 
 <Layout
     title="ROG"
-    description="Astro Lane is a customizable blog theme that offers minimal styling, making it easy for you to tailor it to your needs. It's a personal portfolio landing template for developers and designers."
+    description="日記と本棚のサイト"
 >
     <div
         class="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto"
@@ -63,11 +63,11 @@ const sortedPosts = posts
                         <li class="flex flex-col gap-1">
                             <a
                                 href={`/archive/${post.slug}`}
-                                class="block w-full no-underline sm:flex-row sm:gap-8 transition-all duration-300 hover:-top-0.5 relative"
+                                class="block w-full underline underline-offset-8 sm:flex-row sm:gap-8 transition-all duration-300 hover:-top-0.5 relative"
                             >
                                 <span class="grid flex-1 gap-1">
                                     <span class="text-neutral-900 md:inline-flex items-center">
-                                        <span class="inline-block font-medium">
+                                        <span class="text-lg inline-block font-medium">
                                             {post.data.title}
                                         </span>
                                     </span>
