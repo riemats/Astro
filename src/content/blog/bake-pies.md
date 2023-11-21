@@ -5,7 +5,7 @@ pubDate: 2023-10-30
 featured: true
 draft: false
 tags:
-    - food
+    - 食
 heroImage: "../../../images/20231030-2.jpg"
 ---
 

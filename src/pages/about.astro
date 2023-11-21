@@ -1,0 +1,57 @@
+---
+import FormattedDate from "@/components/FormattedDate.astro";
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import { Icon } from "astro-icon";
+import { SITE } from "@config";
+import { CollectionEntry } from "astro:content";
+
+export interface Props {
+    posts: CollectionEntry<"blog">[];
+    title: string;
+    tag: string;
+}
+
+const { posts, title, tag } = Astro.props;
+---
+
+<Layout
+    title={`${title} - ${SITE.title}`}
+    description={`A list of posts from ${SITE.author} in ${SITE.title}`}
+>
+    <div
+        class="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto"
+    >
+        <SectionContainer class="blogs--container mt-32">
+            <a
+                href="/"
+                class="font-medium flex no-underline text-neutral-500 mb-8"
+            >
+                <Icon name="ph:arrow-left-light" class="w-6 h-6 mr-4" />
+                Back to home
+            </a>
+            <h2
+                class="font-medium text-h4 text-neutral-500 my-4 leading-8"
+            >
+                About
+            </h2>
+            <h3
+                class="my-8 leading-8">
+                このサイトについて
+            </h3>
+            <p class="my-0">日々のこと、買ったもののこと、</p>
+            <p class="my-0">出かけたところ、街のことや昔のことなど</p>
+            <p class="my-0">経験にもとづいた記録のサイトです。</p>
+            <h3
+                class="my-8 mt-12 leading-10">
+                私について
+            </h3>
+            <h4 class="h-6">rm</h4>
+            <p class="my-0">1992年 青森県八戸市生まれ</p>
+            <p class="my-0">2015年より東京都在住</p>
+            <p class="mt-0">つくる仕事をしています。山が好きです。</p>
+            </span>
+            
+        </SectionContainer>
+    </div>
+</Layout>
