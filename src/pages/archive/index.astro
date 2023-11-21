@@ -9,9 +9,9 @@ const posts = await getCollection("blog");
 const sortedPosts = posts
     .filter((post) => post.data.featured == true)
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-    .slice(0, 10);
+    .slice(0, 20);
 const totalPages = getPageNumbers(sortedPosts.length);
-const paginatedPosts = sortedPosts.slice(0, 10);
+const paginatedPosts = sortedPosts.slice(0, 20);
 ---
 
 <Posts
