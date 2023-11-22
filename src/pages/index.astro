@@ -13,6 +13,11 @@ import { getCollection } from "astro:content";
 import { Icon } from "astro-icon";
 import getSortedTags from "@/utils/getSortedTags";
 
+// Example: Construct a canonical URL using your production domain
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// Example: Construct a URL for SEO meta tags using your current domain
+const socialImageURL = new URL('/assets/Obsidian.jpg', Astro.url);
 
 const posts = await getCollection("blog");
 
@@ -22,6 +27,9 @@ const sortedPosts = posts
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
     .slice(0, 5);
 ---
+
+<link rel="canonical" href={canonicalURL} />
+<meta property="og:image" content={socialImageURL} />
 
 <Layout
     title="ROG"

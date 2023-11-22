@@ -2,7 +2,7 @@
 title: "一学期の終わりの夜のこと"
 description: "6月の初めによみうりランドの隣のスーパー銭湯に行ったとき、よみうりランドで「ホタル鑑賞イベント開催中」の看板を見かけた。ずいぶん早いな、と思ったが温暖化が進んだ関東は例年これくらいの時期に蛍が見られるんだろうか。"
 pubDate: 2023-06-23
-heroImage: "../src/assets/firefly.png"
+heroImage: ""
 featured: true
 draft: false
 tags:
