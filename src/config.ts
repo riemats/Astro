@@ -10,7 +10,7 @@ export const SITE: Site = {
     ogImage: "images/astro-lane.png",
     keywords:
         "personal diary, personal blog, designer portfolio",
-    postPerPage: 20
+    postPerPage: 15
 };
 
 // The site uses iconify - you can find icons on https://iconify.design/.
