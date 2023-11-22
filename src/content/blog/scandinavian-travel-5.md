@@ -1,6 +1,6 @@
 ---
 title: "勢いで北欧旅行5"
-description: "ついに滞在最終日。"
+description: "朝食をホテルの1階で食べた。"
 pubDate: 2023-03-30
 heroImage: "../src/assets/st-5-thumb.jpg"
 featured: true
