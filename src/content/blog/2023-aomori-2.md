@@ -2,6 +2,7 @@
 title: "春の青森2"
 description: "縫道石山へ。翌日登る予定だったが風が強すぎる予報で登れるか怪しかったので、翌日よりはまだ弱かったこの日登ることにした。"
 pubDate: 2023-09-06
+heroImage: "../src/assets/2023-aomori-2-thumb-scaled.jpeg"
 featured: true
 draft: false
 tags:
@@ -12,7 +13,6 @@ tags:
     - 東北
     - 山
     - 温泉
-heroImage: "../../../images/2023-aomori-2-thumb-scaled.jpeg"
 ---
 
 [出発前日の久慈平岳](https://riemats.com/2023-aomori-day0/) / [南部から尻屋崎と大間崎](https://riemats.com/2023-aomori-1/) / **縫道石山とキャンプ** / [仏ヶ浦、脇野沢から青森市](https://riemats.com/2023-aomori-3/) / [八甲田大岳残雪期ハイク](https://riemats.com/2023-aomori-4/)

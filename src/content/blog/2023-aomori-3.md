@@ -2,6 +2,7 @@
 title: "春の青森3"
 description: "早朝、仏ヶ浦へ行った。遠くからしか見下ろしたことがなかったが、船でなくても徒歩で港まで降りることができたので行ってみた。結構な下り。(帰りの上りでは汗をかいた)"
 pubDate: 2023-09-07
+heroImage: "../src/assets/2023-aomori-3-thumb-scaled.jpg"
 featured: true
 draft: false
 tags:
@@ -14,7 +15,6 @@ tags:
     - キャンプ
     - サウナ
     - 温泉
-heroImage: "../../../images/2023-aomori-3-thumb-scaled.jpg"
 ---
 
 [出発前日の久慈平岳](https://riemats.com/2023-aomori-day0/) / [南部から尻屋崎と大間崎](https://riemats.com/2023-aomori-1/) / [縫道石山とキャンプ](https://riemats.com/2023-aomori-2/) / **仏ヶ浦、脇野沢から青森市** / [八甲田大岳残雪期ハイク](https://riemats.com/2023-aomori-4/)

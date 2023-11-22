@@ -2,6 +2,7 @@
 title: "春の青森4"
 description: "前日、てんきとくらすの天気予報を見ると風が強くてCだったので諦めていた。当日朝あらためて見ると、弱まった予報だったので行くことにした。"
 pubDate: 2023-09-08
+heroImage: "../src/assets/2023-aomori-4-thumb.jpg"
 featured: true
 draft: false
 tags:
@@ -11,7 +12,6 @@ tags:
     - 東北
     - 山
     - 温泉
-heroImage: "../../../images/2023-aomori-4-thumb.jpg"
 ---
 
 [出発前日の久慈平岳](https://riemats.com/2023-aomori-day0/) / [南部から尻屋崎と大間崎](https://riemats.com/2023-aomori-1/) / [縫道石山とキャンプ](https://riemats.com/2023-aomori-2/) / [仏ヶ浦、脇野沢から青森市](https://riemats.com/2023-aomori-3/) / **八甲田大岳残雪期ハイク**

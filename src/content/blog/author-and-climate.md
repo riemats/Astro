@@ -2,13 +2,13 @@
 title: "枯淡苑で買った本について（作家と風土）"
 description: "8月下旬、立山登山の帰りに松本に立ち寄って一日観光した。下調べ不足だったが、実際街へ出て歩いてみると見どころの多い街で好きになった。"
 pubDate: 2023-09-12
+heroImage: "../src/assets/20230912_thumb-scaled.jpg"
 featured: true
 draft: false
 tags:
     - 本
     - 散歩
     - 長野
-heroImage: "../../../images/20230912_thumb-scaled.jpg"
 ---
 
 8月下旬、立山登山の帰りに松本に立ち寄って一日観光した。  

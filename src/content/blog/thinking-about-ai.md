@@ -2,11 +2,11 @@
 title: "AIについて思うこと"
 description: "AIの進化はものすごいスピードで、文章も画像も音楽も、膨大な情報を元に簡単に生成することができるようになった。"
 pubDate: 2023-06-29
+heroImage: "../src/assets/think-of-ai.png"
 featured: true
 draft: false
 tags:
     - 日々のこと
-heroImage: "../../../images/think-of-ai.png"
 ---
 
 AIの進化はものすごいスピードで、文章も画像も音楽も、膨大な情報を元に簡単に生成することができるようになった。

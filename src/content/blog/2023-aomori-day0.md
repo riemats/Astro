@@ -2,6 +2,7 @@
 title: "春の青森（の前の、岩手）"
 description: "もうすぐ夏休みという時期だけど、この前の春の連休のことを書いておく。"
 pubDate: 2023-07-31
+heroImage: "../src/assets/2023-aomori-day0.jpg"
 featured: true
 draft: false
 tags:
@@ -11,7 +12,6 @@ tags:
     - 東北
     - サウナ
     - 温泉
-heroImage: "../../../images/2023-aomori-day0.jpg"
 ---
 
 もうすぐ夏休みという時期だけど、この前の春の連休のことを書いておく。

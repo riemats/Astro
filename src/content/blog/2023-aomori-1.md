@@ -2,6 +2,7 @@
 title: "春の青森1"
 description: "早朝5時出発。放牧された寒立馬を見に、尻屋崎へ向かう。道中のコンビニでコーヒーを買う。早朝にもかかわらず店員さんがすごく元気だった。"
 pubDate: 2023-09-05
+heroImage: "../src/assets/2023-aomori-day1-thhumb-scaled.jpeg"
 featured: true
 draft: false
 tags:
@@ -9,7 +10,6 @@ tags:
     - カメラ・写真
     - 青森
     - 東北
-heroImage: "../../../images/2023-aomori-day1-thhumb-scaled.jpeg"
 ---
 
 [出発前日の久慈平岳](https://riemats.com/2023-aomori-day0/) / **南部から尻屋崎と大間崎** / [縫道石山とキャンプ](https://riemats.com/2023-aomori-2/) / [仏ヶ浦、脇野沢から青森市](https://riemats.com/2023-aomori-3/) / [八甲田大岳残雪期ハイク](https://riemats.com/2023-aomori-4/)
