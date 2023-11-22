@@ -2,7 +2,7 @@
 title: "EvernoteからObsidianに移行する"
 description: "2017年から課金して使い続けたEvernoteから、Obsidianに乗り換えることにした。"
 pubDate: 2023-11-02
-heroImage: "../../../images/Obsidian.jpg"
+heroImage: "../../src/assets/images/Obsidian.jpg"
 featured: true
 draft: false
 tags: 
@@ -70,7 +70,7 @@ tags:
 
 - **タグペイン**
     - タグは現状「記事」「Wikipedia」「📚」「レシピ」「ことば」の5点のみとしており、あまり増やさないようにしている。
-![](/images/ob_01_tag.png)
+![](../../src/assets/images/ob_01_tag.png)
 *タグはこんな感じで表示される*
 
 - **アウトゴーイングリンク**
@@ -79,7 +79,7 @@ tags:
     - Googleドキュメントにも似た機能があるが、見出しをつけて記述していくと勝手にアウトラインをとってくれるもの。
     
     - ブログの下書きにも使いやすい。
-![](/images/ob_02_outline.png)
+![](../../src/assets/images/ob_02_outline.png)
 *右側のものがアウトライン*
 
 - **グラフビュー**
@@ -115,7 +115,7 @@ tags:
     
     - ホットキー(ショートカットのようなもの)に登録している。ほか、ユーザー辞書に「たすく: - \[ \]」で登録しているのですぐにチェックボックスを追加できるようにしている。
 
-![](/images/ob_04_task.png)
+![](../../src/assets/images/ob_04_task.png)
 *デイリーノート内のタスクのようす*
 
 他にもいろいろなコミュニティプラグインがある。入れてみて要らないなと思ってすぐ削除したものもある。シンプルにこれだけでいいかなと今のところは思っている。  
@@ -132,7 +132,7 @@ Map Viewは現状ほぼ使っていないけど、EXIF情報を用いて旅行�
 各デバイス間の不具合もとくにないので、不満はない。iCloudはさくさく読み込んでいるようす。  
 フロントマターのことはまだよくわかっていないので調べる。
 
-![](/images/ob_05.graphview.png)
+![](../../src/assets/images/ob_05.graphview.png)
 *グラフビュー、まだまだこれから*
 
 ### デイリーノートの項目について
@@ -151,9 +151,9 @@ Map Viewは現状ほぼ使っていないけど、EXIF情報を用いて旅行�
 
 「daily」「会社の案件管理用」の2種を作成している。
 
-![](/images/ob_03_temp1-800x686.png)
+![](../../src/assets/images/ob_03_temp1.png)
 
-![](/images/ob_03_temp2-760x800.png)
+![](../../src/assets/images/ob_03_temp2.png)
 
 ### 現状のフォルダ構成
 
